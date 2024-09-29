@@ -30,7 +30,7 @@ For best reproducibility, codes in this repository should be downloaded to a _`g
 
 2. **Fig. 2**: Raw fig are generated in _`global_lake_area/my_spatial_analyze/data_analyze/extreme_analysis/low_water_extreme_plotting.ipynb`_. Fonts, layout, and sizes are further polished in Adobe Illustrator.
 
-3. **Fig. 3**: Raw fig are generated in _`global_lake_area/my_spatial_analyze/data_analyze/grid_wise_analysis/gird_wise_plotting.ipynb`_. Fonts, layout, and sizes are further polished in Adobe Illustrator.
+3. **Fig. 3**: Raw fig are generated in _`global_lake_area/my_spatial_analyze/data_analyze/grid_wise_analysis/grid_wise_plotting.ipynb`_. Fonts, layout, and sizes are further polished in Adobe Illustrator.
 
 4. **Fig. 4**: Raw fig are generated in _`global_lake_area/my_spatial_analyze/data_analyze/time_series_analysis/time_series_plotting.ipynb`_. Fonts, layout, and sizes are further polished in Adobe Illustrator.
 

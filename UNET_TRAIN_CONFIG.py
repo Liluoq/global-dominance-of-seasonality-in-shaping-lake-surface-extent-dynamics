@@ -1,0 +1,12 @@
+HYBAS_ID = 2020057170
+TRAINING_PATTERN = 'training'
+EVAL_PATTERN = 'eval'
+LOCAL_SAMPLE_FOLDER = f'/WORK/SSD_Data/global_lake_area/unet_sample_10bands_laea_per_basin/10bands_LAEA_samples_{HYBAS_ID}/'
+KEEP_RATIO = 1.0
+INPUT_BANDS = ['B', 'G', 'R', 'NIR', 'SWIR1', 'SWIR2', 'GSW_Occurrence', 'GSW_Recurrence']
+INPUT_BAND_SCALING_FACTORS = [0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.01, 0.01]
+RESPONSE = ['Water_GSW']
+KERNEL_SIZE = 128
+EPOCHS = 350
+BATCH_SIZE = 128
+SAVE_MODELS_AND_FIGURES_FOLDER = f'./trained_unet_10bands_att_laea_no_zenith/{HYBAS_ID}/'

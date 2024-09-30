@@ -128,7 +128,7 @@ For best reproducibility, codes in this repository should be downloaded to a _`g
 
 ## File Description and Usage
 
-A brief description for each file is provided below, with necessary, detailed usage added in the files.
+Other scripts relates to the algorithm of this manuscript, which require running for several months, high-performance computing clusters, and terrabytes of input data. Therefore, they are not included in the reproducing process due to time and resource limit. For further information on this, a brief description for each file is provided below, with necessary, detailed usage added in the files.
 
 1. **_`global_lake_area/`_** (folder)
 

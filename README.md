@@ -71,7 +71,9 @@ For the quantitative figures and key numbers, with steps above finished, you can
 
 ### Troubleshooting
 1. Cannot open Docker container
-> This 
+> This is most likely due to incorrect settings for paths. Please make sure the paths are correctly typed. (for Windows, a correct path looks like _`D:\\folder1\\folder2`_)
+2. Error running codes (e.g., `package not exist`, `cannot find file path`, and etc.)
+> This is due to incorrect path mounting in _`devcontainer.json`_, please make sure the file sturcture is like _`your_path\\code\\global_lake_area\\batch_processing\\...`_ and _`your_path\\data\\global_lake_area\\area_csvs`_. In the _`devcontainer.json`_ file, please make sure that the _`your_path\\code`_ and the _`your_path\\data`_ folders are used.
 ---
 ---
 ---

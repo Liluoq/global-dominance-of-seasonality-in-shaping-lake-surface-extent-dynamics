@@ -68,6 +68,10 @@ To download the docker image automatically, please run the command below in your
 
 ### Running Codes and reproduce the results
 For the quantitative figures and key numbers, with steps above finished, you can find the corresponding `.ipynb` file as recorded below to generate the results. Just open the file and run all cells.
+1. Open the corresponding `.ipynb` file as indicated in the "Locations of quantitative results in the codes" section.
+2. Click `Run All`.
+3. In the pop-up options for choosing python kernel, click `Python Environments...`, and then click `Python 3.8.10 /usr/bin/python3`.
+4. Success.
 
 ### Troubleshooting
 1. Cannot open Docker container

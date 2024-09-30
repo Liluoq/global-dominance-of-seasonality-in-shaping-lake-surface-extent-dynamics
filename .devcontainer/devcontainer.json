@@ -3,9 +3,8 @@
     "image": "luoqili/global-lake-area-runner:v1.0",
     "forwardPorts": [8888],
     "runArgs": ["--net=host", "--gpus", "all"],
-    "mounts": [{"source": "your_path\\global_lake_area_code", "target": "/WORK/Codes", "type": "bind"},
-                {"source": "your_path\\global_lake_area_data", "target": "/WORK/Data", "type": "bind"},
-                {"source": "your_path\\your_empty_folder", "target": "/WORK/SSD_Data", "type": "bind"}],
+    "mounts": [{"source": "your_path\\code", "target": "/WORK/Codes", "type": "bind"},
+                {"source": "your_path\\data", "target": "/WORK/Data", "type": "bind"}],
     "customizations": {
         "vscode": {
             "extensions": []

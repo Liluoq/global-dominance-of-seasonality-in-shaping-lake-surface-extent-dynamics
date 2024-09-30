@@ -6,7 +6,7 @@ This repository contains all necessary codes for producing datasets and reproduc
 
 ### System requirement
 
-Some of the codes read a large dataset into RAM, so at least a 64 GB RAM is required (for Windows). 
+Some of the codes read a large dataset into RAM, so at least a 64 GB RAM is required (for Windows).  
 **Note: Not having enough RAM may cause the program to crash.**
 
 ### Folder preparation
@@ -86,7 +86,9 @@ For the quantitative figures and key numbers, with steps above finished, you can
 ---
 ## Locations of quantitative results in the codes
 
-**Note: requiring at least 64GB RAM, otherwise the program may crash.**
+**Note: Require at least 64GB RAM, otherwise the program may crash.**
+
+---
 
 For best reproducibility, codes in this repository should be downloaded to a _`global_lake_area`_ parent directory, all descriptions below follow this convention.
 

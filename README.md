@@ -54,7 +54,7 @@ To download the docker image automatically, please run the command below in your
 #### Open folder in VS Code
 1. Open VS Code.
 2. Click the file option, click `Open Folder`.
-3. Open _`your_path\\global_lake_area_code`_, which is the folder that contains all codes.
+3. Open _`your_path\\code\\global_lake_area`_, which is the folder that contains all codes.
 
 #### Reopen in container
 1. Check if there is a _`.devcontainer`_ folder on the left panel, if not, please check steps above.
@@ -78,6 +78,8 @@ For the quantitative figures and key numbers, with steps above finished, you can
 > This is most likely due to incorrect settings for paths. Please make sure the paths are correctly typed. (for Windows, a correct path looks like _`D:\\folder1\\folder2`_)
 2. Error running codes (e.g., `package not exist`, `cannot find file path`, and etc.)
 > This is due to incorrect path mounting in _`devcontainer.json`_, please make sure the file sturcture is like _`your_path\\code\\global_lake_area\\batch_processing\\...`_ and _`your_path\\data\\global_lake_area\\area_csvs`_. In the _`devcontainer.json`_ file, please make sure that the _`your_path\\code`_ and the _`your_path\\data`_ folders are used.
+3. Kernel crash errors and other messages with keywords like "free", "mem", and etc.
+> This is because the user's RAM does not meet the requirement of running the script. Please try using another high-performance computer with at least 64GB RAM installed. However, on Windows 11, this issues may be caused by the default limitation on memory use os WSL2-based docker. If in that case, please refer to the guidance [here](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#wslconfig) and [here](https://forums.docker.com/t/increase-container-memory-usage-limit/139437) to set up the _`.wslconfig`_ file to allocate at least 64GB RAM to docker. 
 ---
 ---
 ---

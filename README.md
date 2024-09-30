@@ -28,7 +28,7 @@ Running codes of this manuscript requires running in a Docker container to ensur
 
 All data can be generated using corresponding scripts. Datasets that are used for reproducing quantitative results below are separately hosted in a Zenodo repository for peer review .
 
-1. Navigate to the [Zenodo repository](https://zenodo.org/records/13856661?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImUzOGZkMGVkLWY1ZWYtNDJmMC1hNDZmLTgyNzVlMDg4YmIwYiIsImRhdGEiOnt9LCJyYW5kb20iOiJmNzI5ZmIwNjI1N2ZkYmFlZTFjYzI1MTA3YTY4ZmY3YiJ9.PDh1f8eXAc0ALKKgbju_FShM_yIQEyldq4K9L-UsqLudzPjRXIt-ky1NZS3t7xXhvfyQ_9UxcN5Ql1Kt4D8dKg) and download the file _`global_lake_area.zip`_.
+1. Navigate to the [Zenodo repository](https://zenodo.org/records/13859383?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjAwNTlhNWViLWQ5NGEtNDE1Yy1hYTQxLWIxMDRlNmQzNjFiNyIsImRhdGEiOnt9LCJyYW5kb20iOiI2MzRhZTZlMzNmZWJiM2IwZDM4OWIzMjljOTYzMGIwOCJ9.97fs0fYyr-X7345gNjGSEw3UYQejXLVqWgdyqMgsHoSYlQnKd-EyMXBODOklL4bGt1RYqcF55v2MmZKhJkfknQ) and download the file _`global_lake_area.zip`_.
 2. Decompress the file _`global_lake_area.zip`_ and get a folder named _`global_lake_area`_.
 3. Rename this folder to _`global_lake_area`_
 4. Move _`global_lake_area`_ to _`your_path\\data`_, so we get _`your_path\\data\\global_lake_area`_. The data's structure will be like _`your_path\\data\\global_lake_area\\area_csvs`_.

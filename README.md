@@ -69,6 +69,9 @@ To download the docker image automatically, please run the command below in your
 ### Running Codes and reproduce the results
 For the quantitative figures and key numbers, with steps above finished, you can find the corresponding `.ipynb` file as recorded below to generate the results. Just open the file and run all cells.
 
+### Troubleshooting
+1. Cannot open Docker container
+> This 
 ---
 ---
 ---

@@ -26,7 +26,7 @@ Running codes of this manuscript requires running in a Docker container to ensur
 
 ### Data download
 
-All data can be generated using corresponding scripts. Datasets that are used for reproducing quantitative results below are separately hosted in a [Zenodo repository](https://zenodo.org/records/13856661?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImUzOGZkMGVkLWY1ZWYtNDJmMC1hNDZmLTgyNzVlMDg4YmIwYiIsImRhdGEiOnt9LCJyYW5kb20iOiJmNzI5ZmIwNjI1N2ZkYmFlZTFjYzI1MTA3YTY4ZmY3YiJ9.PDh1f8eXAc0ALKKgbju_FShM_yIQEyldq4K9L-UsqLudzPjRXIt-ky1NZS3t7xXhvfyQ_9UxcN5Ql1Kt4D8dKg) for peer review .
+All data can be generated using corresponding scripts. Datasets that are used for reproducing quantitative results below are separately hosted in a Zenodo repository for peer review .
 
 1. Navigate to the [Zenodo repository](https://zenodo.org/records/13856661?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImUzOGZkMGVkLWY1ZWYtNDJmMC1hNDZmLTgyNzVlMDg4YmIwYiIsImRhdGEiOnt9LCJyYW5kb20iOiJmNzI5ZmIwNjI1N2ZkYmFlZTFjYzI1MTA3YTY4ZmY3YiJ9.PDh1f8eXAc0ALKKgbju_FShM_yIQEyldq4K9L-UsqLudzPjRXIt-ky1NZS3t7xXhvfyQ_9UxcN5Ql1Kt4D8dKg) and download the file _`global_lake_area.zip`_.
 2. Decompress the file _`global_lake_area.zip`_ and get a folder named _`global_lake_area`_.

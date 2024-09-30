@@ -13,15 +13,16 @@ Some of the codes read a large dataset into RAM, so at least a 64 GB RAM is requ
 Running codes of this manuscript requires running in a Docker container to ensure identical environment. Folders on the host machine are mounted in the container. Therefore, codes and data need to be downloaded and saved in the correct directory.
 
 1. Find a place on your local machine to store the codes and data (> 50 GB available). We use _`your_path`_ to refer to this, and the path writing convention follows the Windows style (use '\\' as separator). For Linux and MacOS, please just use '/'.
-2. Follow the instructions below to download the codes and data.
+2. Create two sub-folders: _`your_path\\code`_ and _`your_path\\data`_
+3. Follow the instructions below to download the codes and data.
 
 ### Code download
 
 1. Navigate to the [GitHub repository of this manuscript], click the `< > Code` button on the page, and then click `Download ZIP` to download all codes as a single compressed `.zip` file.
 2. Find a file named _`global-dominance-of-seasonality-in-shaping-lake-surface-extent-dynamics-main.zip`_ that is downloaded to your local machine.
 3. Decompress this `.zip` file, and get a folder named _`global-dominance-of-seasonality-in-shaping-lake-surface-extent-dynamics-main`_ that contains all codes.
-4. Rename this folder to _`global_lake_area_code`_.
-5. Move _`global_lake_area_code`_ to _`your_path`_, so we get _`your_path\\global_lake_area_code`_. The codes' structure will be like _`your_path\\global_lake_area_code\\batch_processing\\...`_.
+4. Rename this folder to _`global_lake_area`_.
+5. Move _`global_lake_area`_ to _`your_path\\code`_, so we get _`your_path\\code\\global_lake_area`_. The codes' structure will be like _`your_path\\code\\global_lake_area\\batch_processing\\...`_.
 
 ### Data download
 
@@ -29,8 +30,8 @@ All data can be generated using corresponding scripts. Datasets that are used fo
 
 1. Navigate to the [Zenodo repository](https://zenodo.org/records/13856661?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImUzOGZkMGVkLWY1ZWYtNDJmMC1hNDZmLTgyNzVlMDg4YmIwYiIsImRhdGEiOnt9LCJyYW5kb20iOiJmNzI5ZmIwNjI1N2ZkYmFlZTFjYzI1MTA3YTY4ZmY3YiJ9.PDh1f8eXAc0ALKKgbju_FShM_yIQEyldq4K9L-UsqLudzPjRXIt-ky1NZS3t7xXhvfyQ_9UxcN5Ql1Kt4D8dKg) and download the file _`global_lake_area.zip`_.
 2. Decompress the file _`global_lake_area.zip`_ and get a folder named _`global_lake_area`_.
-3. Rename this folder to _`global_lake_area_data`_
-4. Move _`global_lake_area_data`_ to _`your_path`_, so we get _`your_path\\global_lake_area_data`_. The data's structure will be like _`your_path\\global_lake_area_data\\area_csvs`_.
+3. Rename this folder to _`global_lake_area`_
+4. Move _`global_lake_area`_ to _`your_path\\data`_, so we get _`your_path\\data\\global_lake_area`_. The data's structure will be like _`your_path\\data\\global_lake_area\\area_csvs`_.
 
 ### Docker installation  
 
@@ -58,11 +59,9 @@ To download the docker image automatically, please run the command below in your
 #### Reopen in container
 1. Check if there is a _`.devcontainer`_ folder on the left panel, if not, please check steps above.
 2. Modify the _`.devcontainer/devcontainer.json`_ file, replacing the mounting paths to your real paths. Modify the "mount" parameter, replace _`your_path`_ with your real path in these three position:
-> _`{"source": "your_path\\global_lake_area_code", "target": "/WORK/Codes", "type": "bind"}`_ (the downloaded GitHub repository should be decompressed to a folder, and this folder should be bind to the _`/WORK/Codes`_ folder in the virtual environment)
+> _`{"source": "your_path\\code", "target": "/WORK/Codes", "type": "bind"}`_ (the downloaded GitHub repository should be decompressed to a folder, and this folder should be bind to the _`/WORK/Codes`_ folder in the virtual environment)
 > 
-> _`{"source": "your_path\\global_lake_area_data", "target": "/WORK/Data", "type": "bind"}`_ (this folder contains data downloaded from the Zenodo repository mentioned below, and is necessary for reproducing the figures and key numbers)
-> 
-> _`{"source": "your_path\\your_empty_folder", "target": "/WORK/SSD_Data", "type": "bind"}`_ (this folder can be ignored when only reproducing quantitative figures and numbers in the manuscript; **to ignore this, set it to a empty folder or remove it**)
+> _`{"source": "your_path\\data", "target": "/WORK/Data", "type": "bind"}`_ (this folder contains data downloaded from the Zenodo repository mentioned below, and is necessary for reproducing the figures and key numbers)
 3. With [Remote Development](https://code.visualstudio.com/docs/remote/remote-overview) extension installed, there should be a small blue `><` mark on the lower left corner of the VS Code window.
 4. Click that button and select `Reopen in Container`.
 5. After a short period of building and opening the docker image, the environment configuration process succeeds.

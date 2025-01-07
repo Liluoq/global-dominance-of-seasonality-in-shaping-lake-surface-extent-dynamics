@@ -1,0 +1,13 @@
+{
+    "name": "nature_2024-09-19891",
+    "image": "luoqili/global-lake-area-runner:v1.0",
+    "forwardPorts": [8888],
+    "runArgs": ["--net=host", "--gpus", "all"],
+    "mounts": [{"source": "your_path\\code", "target": "/WORK/Codes", "type": "bind"},
+                {"source": "your_path\\data", "target": "/WORK/Data", "type": "bind"}],
+    "customizations": {
+        "vscode": {
+            "extensions": []
+        }
+    }
+}
